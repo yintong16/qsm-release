@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: qsm
+Version: 0.0.1
+Summary: Custom-core quantum circuit toolkit for Ed25519/Wei25519 scalar multiplication (Shor).
+Requires-Python: >=3.12
+Requires-Dist: numpy>=1.26
+Requires-Dist: tabulate>=0.9
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0; extra == "dev"
